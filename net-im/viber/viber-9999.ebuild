@@ -19,9 +19,7 @@ src_prepare() {
 		unpack ./control.tar.gz
 		unpack ./data.tar.xz
 
-		eapply "${FILESDIR}/${PN}-9999-desktop.patch"
 		eapply_user
-		
 }
 
 src_install() {
